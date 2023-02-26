@@ -1,4 +1,4 @@
-### Kandilli rasathanesi api ile oluşturulmuş demo preoje
+### Kandilli rasathanesi api ile oluşturulmuş demo proje
 
 ### Usage
 - $ npx create-expo-app ProjectName
