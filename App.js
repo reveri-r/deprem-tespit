@@ -9,7 +9,7 @@ export default function App() {
  const [isLoading, setLoading] = useState(true);
  const [data, setData] = useState([]);
 
- const getMovies = async () => {
+ const getApi = async () => {
   
     try {
       const response = await fetch('https://api.orhanaydogdu.com.tr/deprem/kandilli/live');
@@ -24,7 +24,7 @@ export default function App() {
   };
 
   useEffect(() => {
-    getMovies();
+    getApi();
     
   }, []);
   return (
